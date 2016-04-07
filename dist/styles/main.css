@@ -16,7 +16,7 @@ body {
   left: 10%;
   top: 25%;
   width: 1000px;
-  padding-left: 270px;
+  padding-left: 268px;
   background-color: red; }
 
 #timerBar {
@@ -82,55 +82,6 @@ ul.flip li a div.up div.inn {
 
 ul.flip li a div.down div.inn {
   bottom: 0; }
-
-/* PLAY */
-body.play ul li.before {
-  z-index: 3; }
-
-body.play ul li.active {
-  animation: asd .5s .5s linear both;
-  z-index: 2; }
-
-@keyframes asd {
-  0% {
-    z-index: 2; }
-  5% {
-    z-index: 4; }
-  100% {
-    z-index: 4; } }
-
-body.play ul li.active .down {
-  z-index: 2;
-  animation: turn .5s .5s linear both; }
-
-@keyframes turn {
-  0% {
-    transform: rotateX(90deg); }
-  100% {
-    transform: rotateX(0deg); } }
-
-body.play ul li.before .up {
-  z-index: 2;
-  animation: turn2 .5s linear both; }
-
-@keyframes turn2 {
-  0% {
-    transform: rotateX(0deg); }
-  100% {
-    transform: rotateX(-90deg); } }
-
-/*DOWN*/
-@keyframes show {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes hide {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
 
 * {
   margin: 0;
@@ -150,7 +101,7 @@ body {
   left: 10%;
   top: 25%;
   width: 1000px;
-  padding-left: 270px;
+  padding-left: 268px;
   background-color: red; }
 
 #timerBar {
@@ -216,52 +167,3 @@ ul.flip li a div.up div.inn {
 
 ul.flip li a div.down div.inn {
   bottom: 0; }
-
-/* PLAY */
-body.play ul li.before {
-  z-index: 3; }
-
-body.play ul li.active {
-  animation: asd .5s .5s linear both;
-  z-index: 2; }
-
-@keyframes asd {
-  0% {
-    z-index: 2; }
-  5% {
-    z-index: 4; }
-  100% {
-    z-index: 4; } }
-
-body.play ul li.active .down {
-  z-index: 2;
-  animation: turn .5s .5s linear both; }
-
-@keyframes turn {
-  0% {
-    transform: rotateX(90deg); }
-  100% {
-    transform: rotateX(0deg); } }
-
-body.play ul li.before .up {
-  z-index: 2;
-  animation: turn2 .5s linear both; }
-
-@keyframes turn2 {
-  0% {
-    transform: rotateX(0deg); }
-  100% {
-    transform: rotateX(-90deg); } }
-
-/*DOWN*/
-@keyframes show {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes hide {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
