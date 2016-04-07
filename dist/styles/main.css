@@ -13,16 +13,23 @@ body {
 
 #clock {
   position: absolute;
-  left: 25%;
+  left: 10%;
   top: 25%;
-  width: 50%;
+  width: 1000px;
+  padding-left: 272px;
   background-color: red; }
+
+#timerBar {
+  width: 1px;
+  height: 2px;
+  background-color: lime;
+  margin: 0 auto; }
 
 ul.flip {
   position: relative;
   float: left;
-  margin: 2%;
-  width: 12%;
+  margin: 5px;
+  width: 60px;
   height: 90px;
   font-size: 4.65rem;
   font-weight: bold;
@@ -38,16 +45,10 @@ ul.flip li {
 ul.flip li a div {
   position: absolute;
   width: 100%;
-  height: 50%; }
-
-ul.flip li a div .shadow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 2; }
+  height: 50%;
+  overflow: hidden; }
 
 ul.flip li a div.up {
-  transform-origin: 50% 100%;
   top: 0; }
 
 ul.flip li a div.up:after {
@@ -167,12 +168,6 @@ body.play ul li.active .down .shadow {
     opacity: 1; }
   100% {
     opacity: 0; } }
-
-#timerBar {
-  width: 1px;
-  height: 3px;
-  background-color: lime;
-  margin: 0 auto; }
 
 * {
   margin: 0;
@@ -189,16 +184,23 @@ body {
 
 #clock {
   position: absolute;
-  left: 25%;
+  left: 10%;
   top: 25%;
-  width: 50%;
+  width: 1000px;
+  padding-left: 272px;
   background-color: red; }
+
+#timerBar {
+  width: 1px;
+  height: 2px;
+  background-color: lime;
+  margin: 0 auto; }
 
 ul.flip {
   position: relative;
   float: left;
-  margin: 2%;
-  width: 12%;
+  margin: 5px;
+  width: 60px;
   height: 90px;
   font-size: 4.65rem;
   font-weight: bold;
@@ -214,16 +216,10 @@ ul.flip li {
 ul.flip li a div {
   position: absolute;
   width: 100%;
-  height: 50%; }
-
-ul.flip li a div .shadow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 2; }
+  height: 50%;
+  overflow: hidden; }
 
 ul.flip li a div.up {
-  transform-origin: 50% 100%;
   top: 0; }
 
 ul.flip li a div.up:after {
@@ -343,9 +339,3 @@ body.play ul li.active .down .shadow {
     opacity: 1; }
   100% {
     opacity: 0; } }
-
-#timerBar {
-  width: 1px;
-  height: 3px;
-  background-color: lime;
-  margin: 0 auto; }

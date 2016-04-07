@@ -1,7 +1,15 @@
 #clock {
 	position: absolute;
-  left: 25%;
+  left: 10%;
   top: 25%;
-  width: 50%;
+  width: 1000px;
+	padding-left: 272px;
   background-color: red;
+}
+
+#timerBar {
+  width: 1px;
+  height: 2px;
+  background-color: lime;
+  margin: 0 auto;
 }

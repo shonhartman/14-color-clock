@@ -1,8 +1,8 @@
 ul.flip {
   position: relative;
   float: left;
-  margin: 2%;
-  width: 12%;
+  margin: 5px;
+  width: 60px;
   height: 90px;
   font-size: 4.65rem;
   font-weight: bold;
@@ -35,18 +35,18 @@ ul.flip li a div {
   // left: 0;
   width: 100%;
   height: 50%;
-  // overflow: hidden;
+  overflow: hidden;
 }
 
-ul.flip li a div .shadow {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-}
+// ul.flip li a div .shadow {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 2;
+// }
 
 ul.flip li a div.up {
-    transform-origin: 50% 100%;
+    // transform-origin: 50% 100%;
     top: 0;
 }
 
@@ -199,13 +199,4 @@ body.play ul li.active .down .shadow {
     100% {
         opacity: 0;
     }
-}
-
-//TimerBar
-
-#timerBar {
-  width: 1px;
-  height: 3px;
-  background-color: lime;
-  margin: 0 auto;
 }
